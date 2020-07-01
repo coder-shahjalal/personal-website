@@ -1,0 +1,134 @@
+body{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+
+h1{
+
+
+    font-size: 60px;
+    color: #EC4C7A;
+    padding-top: 0px;
+    margin-top: 0;
+    
+}
+
+h2{
+    font-weight: 400;
+    font-size: 50px;
+    color: #202428;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    
+}
+
+
+p{
+    color: #707070;
+    
+    margin-bottom: 40px;
+    
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    margin-top: 100px;
+
+}
+
+.half-width img{
+    width: 100%;
+}
+
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+footer{
+    height: 500px;
+}
+
+.link-button{
+    text-decoration: none;
+    text-align: center;
+    background-color:#EC4C76 ;
+    font-weight: 600;
+    padding:10px 20px;
+    color: white;
+    border-radius: 5px;
+    background-image: linear-gradient(180deg,#EC4C76 #ED4B72);
+    
+
+}
+.top-banner{
+    background-image: url("./images/header-bg.png");
+    background-repeat:no-repeat;
+    background-position: left;
+    background-size: 100% 100%;
+
+
+}
+.biography-area{
+    background-image: url("./images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.workarea{
+    background-image: url("./images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+}
+.client-review{
+    background-image: url("./images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+}
+.workarea-images{
+    margin:10px 20px;
+}
+
+.workarea-images img{
+    width: 30%;
+    padding-left: 25px;
+}
+
+.review-width{
+    text-align: center;
+    width: 40%;
+    margin-left: 25%;
+    padding-left: 2%;
+    margin-top: 100px;
+    
+}
+.workarea-text{
+    padding: 100px 100px;
+}
+
+footer #bruce{
+    margin: 70px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+footer  #founderceo{
+    color: #707070;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 50px;
+
+}
+
+footer #review-paragrap{
+    color: #333333;
+    margin-bottom: 60px;
+}
+
+footer #copywrite{
+    margin-top: 200px;
+    margin-bottom: 10px;
+}
