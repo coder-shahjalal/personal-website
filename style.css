@@ -76,18 +76,14 @@ footer{
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
+
 .workarea{
     background-image: url("./images/latest-work-bg.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     text-align: center;
 }
-.client-review{
-    background-image: url("./images/footer-bg.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    text-align: center;
-}
+
 .workarea-images{
     margin:10px 20px;
 }
@@ -97,20 +93,84 @@ footer{
     padding-left: 25px;
 }
 
+.workarea-text{
+    padding: 100px 100px;
+}
+
+.service-area{
+    background-image: url("./images/header-bg.png");
+    background-position: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-bottom: 1px;
+    
+}
+.service-images {
+    width: 100%;
+    
+}
+.service-width{
+    display: flex;
+    width: 80%;
+    float: left;
+    margin-left: 8%;
+    padding-left: 2%;
+
+}
+
+
+.service-text{
+   
+    background-color: rgba(255, 255, 255, 0.589);
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 50%;
+    margin: 8px 8px;
+    padding: 20px 20px;
+}
+
+#service1{
+    border-top: 7px solid ;
+    border-image: linear-gradient(90deg, lightsalmon,tomato);
+    border-image-slice: 1;
+}
+
+#service2{
+    border-top: 7px solid ;
+    border-image: linear-gradient(90deg, #6FF3C6,#34A2F2);
+    border-image-slice: 1;
+}
+#service3{
+    border-top: 7px solid ;
+    border-image: linear-gradient(90deg, #FF4790,#FF1A74);
+    border-image-slice: 1;
+}
+#service4{
+    border-top: 7px solid ;
+    border-image: linear-gradient(90deg, #4979E0,#802CD7);
+    border-image-slice: 1;
+}
+
+.client-review{
+    background-image: url("./images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    margin-top: 160px;
+}
+
+
 .review-width{
     text-align: center;
     width: 40%;
     margin-left: 25%;
     padding-left: 2%;
-    margin-top: 100px;
     
-}
-.workarea-text{
-    padding: 100px 100px;
+    
 }
 
 footer #bruce{
-    margin: 70px;
+    margin: 50px;
     margin-bottom: 0;
     padding-bottom: 0;
 }
@@ -129,6 +189,6 @@ footer #review-paragrap{
 }
 
 footer #copywrite{
-    margin-top: 200px;
+    margin-top: 120px;
     margin-bottom: 10px;
 }
